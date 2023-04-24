@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    background-color: #00acf7;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    text-align: justify;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeiro{
+    font-size: 18px;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+p{
+    padding: 0;
+    margin: -1rem;
+    font-size: 18px;
+    height: 5rem;
+}
+
+section{
+    background-color: azure;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    padding: 8px;
+    height: 6.5rem;
+    width: 25%;
+    margin-left: 4rem;
+    padding: 5px;
+    text-indent: 10px;
+}
+
